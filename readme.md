@@ -46,13 +46,14 @@ However, there are a few areas that could be improved, which I’ll outline belo
 - **Issue:**  
   The terms **MAU** (Monthly Active Users) and **CCU** (Concurrent Users) are not clearly explained, which can confuse users unfamiliar with industry jargon.
 - **Suggestion:**  
-  Add an **info icon** (`ℹ️`) or tooltip next to these terms for quick explanations.
+  Adding an eye button , **info icon** (`ℹ️`) next to these terms that provides a short description or explanation when hovered over or clicked can help clarify their meaning and improve the user experience.
 
 ---
 
 ### 2.  Auth Key Exposure
 - **Issue:**  
-  The **Auth Key** is directly exposed in the frontend, making it vulnerable through browser inspection.
+  While integrating CometChat, I noticed that the Auth Key is directly exposed in the frontend for client-side use. 
+.This can be a potential security risk, since anything on the frontend can be easily inspected and extracted.
 - **Suggestion:**  
   Implement a **more secure method**, like short-lived access tokens or server-side authentication exchanges.
 
@@ -63,6 +64,7 @@ However, there are a few areas that could be improved, which I’ll outline belo
   On a **standard laptop screen size** (~1536×730), both **horizontal** and **vertical scrollbars** appear unnecessarily.
 - **Suggestion:**  
   Improve layout responsiveness using `max-width: 100%`, `max-height: 100%`, and better media queries to avoid overflow.
+0Both horizontal and vertical scrollbars appear even when there’s no actual content overflow, making the interface feel less polished
 
 
 ---
