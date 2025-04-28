@@ -1,8 +1,9 @@
-#CometChat UI Components Feedback
-
+# CometChat UI Components Feedback
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CometChat UI Components are a great choice if you're looking to add chat functionality quickly without starting from scratch. They provide a good balance of flexibility and ease of use, especially if you're familiar with React or similar frameworks. However, there are a few areas that could be improved,  which I’ll outline below.
 
-#Pros / Advantages
+# Pros / Advantages
+
 1.Quick Integration
 .Perfect for developers who want to add chat features quickly.
 .Reduces the time it takes to get started compared to using the SDK alone.
@@ -16,7 +17,7 @@ CometChat UI Components are a great choice if you're looking to add chat functio
 .You don’t need to worry about writing these core features yourself, which speeds up development.
 
 
-#Areas for Improvement
+# Areas for Improvement
 1.Styling Flexibility
 While customization is possible, overriding default styles can be challenging. You may need to use complex CSS overrides or dig into the source code to fully adjust the design to match your app’s branding.
 
