@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@cometchat/calls-sdk-javascript": "^4.1.0"
+  }
+}
