@@ -9,14 +9,14 @@ However, there are a few areas that could be improved, which I’ll outline belo
 
 ##  Pros / Advantages
 
-- **1.Quick Integration**  
-  Perfect for developers who want to add chat features quickly. Greatly reduces setup time compared to using the SDK alone.
+ **1.Quick Integration**  
+ -Perfect for developers who want to add chat features quickly. Greatly reduces setup time compared to using the SDK alone.
 
-- **2.Reduced Boilerplate Code**  
-  The components manage the internal data flow and state handling, so you don’t have to deal with repetitive SDK calls.
+ **2.Reduced Boilerplate Code**  
+ -The components manage the internal data flow and state handling, so you don’t have to deal with repetitive SDK calls.
 
-- **3.Built-in Chat Logic**  
-  Each component handles essential features like sending messages, displaying typing indicators, and fetching messages automatically.
+ **3.Built-in Chat Logic**  
+  -Each component handles essential features like sending messages, displaying typing indicators, and fetching messages automatically.
 
 ---
 
@@ -63,6 +63,7 @@ However, there are a few areas that could be improved, which I’ll outline belo
   On a **standard laptop screen size** (~1536×730), both **horizontal** and **vertical scrollbars** appear unnecessarily.
 - **Suggestion:**  
   Improve layout responsiveness using `max-width: 100%`, `max-height: 100%`, and better media queries to avoid overflow.
+
 
 ---
 
